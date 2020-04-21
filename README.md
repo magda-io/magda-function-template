@@ -12,6 +12,12 @@ export default async function myFunction(input: any) {
 }
 ```
 
+### Install Project Dependencies
+
+```bash
+yarn install
+```
+
 ### Build & Run Function in Minikube
 
 -   Deploy Magda v0.0.57-0 or later
