@@ -12,6 +12,8 @@ export default async function myFunction(input: any) {
 }
 ```
 
+> Invoke you function with `Content-Type: application/json` header will make your function receive unserialised data as input parameter. 
+
 ### Install Project Dependencies
 
 ```bash
