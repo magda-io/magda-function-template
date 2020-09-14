@@ -292,9 +292,10 @@ apidoc-core@~0.8.2:
     lodash "~4.17.4"
     semver "~5.3.0"
 
-"apidoc@git+https://github.com/magda-io/apidoc.git":
+"apidoc@https://github.com/magda-io/apidoc":
   version "0.17.6"
-  resolved "git+https://github.com/magda-io/apidoc.git#d77c3dab6a09e6a597b87c1505d6f3db52e56a55"
+  uid d77c3dab6a09e6a597b87c1505d6f3db52e56a55
+  resolved "https://github.com/magda-io/apidoc#d77c3dab6a09e6a597b87c1505d6f3db52e56a55"
   dependencies:
     apidoc-core "~0.8.2"
     fs-extra "~3.0.1"
@@ -2425,9 +2426,9 @@ locate-path@^5.0.0:
     p-locate "^4.1.0"
 
 lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.5, lodash@~4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.20"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
 
 log-symbols@3.0.0:
   version "3.0.0"
