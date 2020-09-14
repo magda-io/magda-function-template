@@ -1,12 +1,14 @@
 # More exmaples of openfaas function here: https://github.com/openfaas/openfaas-operator
-{{- if and .Values.global.openfaas .Values.global.openfaas.functionNamespace }}
+{{- if .Values.global.openfaas.enabled | default false | ne true }}
+{{- required "`magda-function-template` requires `magda-core`.`openfaas` to deploy. Please turn on openfaas by setting `global.openfaas.enabled` to `true` or turn off `magda-function-template` to avoid this error." nil }}
+{{- else }}
 apiVersion: openfaas.com/v1
 kind: Function
 metadata:
   name: {{ .Chart.Name }}
   namespace: {{ include "magda-function-template.openfaaFunctionNamespace" . | quote }}
   labels: 
-    magdaType: 
+    magdaType: test
 spec:
   name: {{ .Chart.Name }}
   handler: node bootstrap.js
