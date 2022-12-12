@@ -41,7 +41,7 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.17.3"
   },
   "config": {
     "docker": {
