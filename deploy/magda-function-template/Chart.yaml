@@ -1,11 +1,11 @@
 apiVersion: v2
 name: magda-function-template
 description: A Helm chart for Magda Openfaas function
-version: "1.1.0"
+version: "2.0.0"
 kubeVersion: ">= 1.14.0-0"
 home: "https://github.com/magda-io/magda-function-template"
 sources: [ "https://github.com/magda-io/magda-function-template" ]
 dependencies:
   - name: magda-common
-    version: "1.0.0-alpha.4"
-    repository: "https://charts.magda.io"
+    version: "2.1.1"
+    repository: "oci://ghcr.io/magda-io/charts"
